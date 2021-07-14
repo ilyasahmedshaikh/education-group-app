@@ -16,31 +16,12 @@
 
 <div class="sidebar side" [ngClass]="{'show': sidebar}">
     <ul class="parent-nav">
-      <li>
-        <a (click)="toggleMenu()" routerLink="/homepage">
-          Homepage
+      <li *ngFor="let item of pages">
+        <a (click)="toggleMenu()" [routerLink]="item.url">
+          {{item.name}}
         </a>
       </li>
-      <li>
-        <a (click)="toggleMenu()" routerLink="/groups">
-          Groups
-        </a>
-      </li>
-      <li>
-        <a (click)="toggleMenu()" routerLink="/notifications">
-          Notifications
-        </a>
-      </li>
-      <li>
-        <a (click)="toggleMenu()" routerLink="/notifications">
-          Settings
-        </a>
-      </li>
-      <li *ngIf="!userData">
-        <a (click)="toggleMenu()" routerLink="/auth/login">
-          Login
-        </a>
-      </li>
+
       <li *ngIf="userData">
         <a (click)="toggleMenu(); logout()">
           Logout

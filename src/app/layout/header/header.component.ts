@@ -21,6 +21,14 @@ export class HeaderComponent implements OnInit {
 
   userData: any = {};
 
+  pages: any = [
+    { name: "Homepage", url: "/homepage", icon: "" },
+    { name: "Groups", url: "/groups", icon: "" },
+    { name: "Notifications", url: "/notifications", icon: "" },
+    { name: "Settings", url: "/settings", icon: "" },
+    { name: "Login", url: "/auth/login", icon: "" },
+  ]
+
   constructor(
     private router: Router,
     private backNavigateService: BackNavigateService,
