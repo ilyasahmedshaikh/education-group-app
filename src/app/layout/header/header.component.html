@@ -12,50 +12,28 @@
           </a>
       </div>
     </div>
-
-    <div class="form-group mb-0">
-      <select class="form-control">
-        <option selected>My Courses</option>
-        <option>Favourites</option>
-        <option>Downloads</option>
-        <option>History</option>
-      </select>
-      <i class="far fa-user"></i>
-    </div>
 </div>
 
 <div class="sidebar side" [ngClass]="{'show': sidebar}">
     <ul class="parent-nav">
       <li>
-        <a (click)="toggleMenu()" routerLink="/profile">
-          Profile
+        <a (click)="toggleMenu()" routerLink="/homepage">
+          Homepage
         </a>
       </li>
       <li>
-        <a (click)="toggleMenu()" routerLink="/course-management">
-          Course Management
-        </a>
-        <ul class="child-nav">
-          <li>
-            <a (click)="toggleMenu()" routerLink="/course-management/create-course">
-              Create Course
-            </a>
-          </li>
-          <li>
-            <a (click)="toggleMenu()" routerLink="/course-management/add-new-question">
-              Add Question
-            </a>
-          </li>
-        </ul>
-      </li>
-      <li>
-        <a (click)="toggleMenu()" routerLink="/news">
-          News
+        <a (click)="toggleMenu()" routerLink="/groups">
+          Groups
         </a>
       </li>
       <li>
-        <a (click)="toggleMenu()" routerLink="/message">
-          Chat
+        <a (click)="toggleMenu()" routerLink="/notifications">
+          Notifications
+        </a>
+      </li>
+      <li>
+        <a (click)="toggleMenu()" routerLink="/notifications">
+          Settings
         </a>
       </li>
       <li *ngIf="!userData">

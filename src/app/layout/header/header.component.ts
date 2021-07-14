@@ -3,7 +3,7 @@ import { Location } from '@angular/common'
 import { Router } from '@angular/router';
 import{ BackNavigateService } from '../../core/services/back-navigate/back-navigate.service';
 import { PresentationalService } from '../../core/services/presentational/presentational.service';
-import { CheckLoginService } from '../../core/services/checkLogin/check-login.service';
+// import { CheckLoginService } from '../../core/services/checkLogin/check-login.service';
 
 @Component({
   selector: 'app-header',
@@ -26,7 +26,7 @@ export class HeaderComponent implements OnInit {
     private backNavigateService: BackNavigateService,
     private location: Location,
     private presentationalS: PresentationalService,
-    private user: CheckLoginService
+    // private user: CheckLoginService
   ) { }
 
   ngOnInit(): void {
@@ -38,7 +38,7 @@ export class HeaderComponent implements OnInit {
       this.headerShow = res;
     })
 
-    this.userData = this.user.getData();
+    // this.userData = this.user.getData();
   }
 
   toggleMenu() {
