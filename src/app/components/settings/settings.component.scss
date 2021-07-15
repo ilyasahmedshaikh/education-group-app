@@ -1,0 +1,119 @@
+@import '/src/styles.scss';
+
+.settings-screen {
+  .account {
+    padding-top: 6%;
+    .heading {
+      h1 {
+        font-size: 19px;
+        font-weight: 600;
+        color: $darkDefault;
+      }
+    }
+    .card {
+      margin-top: 3%;
+      .icon {
+        i {
+          &.fa-user-circle {
+            color: $purple;
+            font-size: 35px;
+          }
+          &.fa-product-hunt {
+            color: $green;
+            font-size: 35px;
+          }
+          &.fa-gratipay {
+            color: $pink;
+            font-size: 35px;
+          }
+        }
+      }
+      .title {
+        padding-top: 2px;
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        p {
+          color: $darkDefault;
+          font-size: 18px;
+          font-weight: 500;
+        }
+        i {
+          color: $lightDefault;
+          font-size: 15px;
+          position: absolute;
+          right: 15px;
+          top: 11px;
+        }
+      }
+    }
+  }
+
+  .customize {
+    padding-top: 8%;
+    .heading {
+      h1 {
+        font-size: 19px;
+        font-weight: 600;
+        color: $darkDefault;
+      }
+    }
+    .card {
+      margin-top: 3%;
+      .icon {
+        i {
+          &.fa-moon {
+            color: $white;
+            border-radius: 20px;
+            border: 1px solid #333333;
+            background-color: #333333;
+            padding: 7px;
+            font-size: 18px;
+          }
+          &.fa-paint-brush {
+            color: $white;
+            border-radius: 20px;
+            border: 1px solid #00b2b2;
+            background-color: #00b2b2;
+            padding: 7px;
+            font-size: 18px;
+          }
+          &.fa-bell {
+            color: $white;
+            border-radius: 20px;
+            border: 1px solid #ff6347;
+            background-color: #ff6347;
+            padding: 7px;
+            font-size: 18px;
+          }
+          &.fa-exclamation-triangle {
+            color: $white;
+            border-radius: 20px;
+            border: 1px solid #1e90ff;
+            background-color: #1e90ff;
+            padding: 7px;
+            font-size: 18px;
+          }
+        }
+      }
+      .title {
+        padding-top: 2px;
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        p {
+          color: $darkDefault;
+          font-size: 18px;
+          font-weight: 500;
+        }
+        i {
+          color: $lightDefault;
+          font-size: 15px;
+          position: absolute;
+          right: 15px;
+          top: 11px;
+        }
+      }
+    }
+  }
+}
