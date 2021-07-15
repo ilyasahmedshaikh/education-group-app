@@ -1,0 +1,36 @@
+<div class="groups">
+    <p class="heading">Your Groups</p>
+    <div class="scrollable-section">
+        <div class="item" *ngFor="let group of groups">
+            <img src="{{group.image}}" [alt]="group.name" />
+            <div class="fade-away"></div>
+            <p>{{group.name}}</p>
+        </div>
+    </div>
+</div>
+
+<div class="join-new-group">
+    <div class="image">
+        <img src="assets/img/users.png" alt="Users">
+    </div>
+    <div>
+        <p><strong>Join a new group</strong></p>
+        <p class="small">Stay updated on news, event & deals</p>
+    </div>
+    <div class="icon">
+        <i class="fas fa-chevron-right"></i>
+    </div>
+</div>
+
+<div class="upcoming-events">
+    <p class="heading">Your Events</p>
+    <div class="event" *ngFor="let event of events">
+        <img src="{{event.image}}" [alt]="event.name" />
+        <div class="fade-away"></div>
+        <div class="content">
+            <small>{{event.dateTime}}</small>
+            <p>{{event.name}}</p>
+            <small>{{event.place}}</small>
+        </div>
+    </div>
+</div>
