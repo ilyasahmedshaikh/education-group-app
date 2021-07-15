@@ -1,1 +1,19 @@
-<p>notifications works!</p>
+<div class="notifications-screen">
+  <div class="card" *ngFor="let item of List">
+    <div class="card-body">
+      <div class="row">
+        <div class="col-2 pr-0">
+          <div class="notification-img">
+            <img src="{{item.personImg}}">
+          </div>
+        </div>
+        <div class="col-10">
+          <div class="notification-text">
+            <span class="person pr-1">{{item.personName}}</span>
+            <span class="comment">{{item.personComment}}</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
