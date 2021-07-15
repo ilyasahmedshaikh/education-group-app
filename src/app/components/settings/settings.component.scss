@@ -1,8 +1,8 @@
 @import '/src/styles.scss';
 
 .settings-screen {
+  padding: 25px 0;
   .account {
-    padding-top: 6%;
     .heading {
       h1 {
         font-size: 19px;
@@ -35,7 +35,7 @@
         justify-content: space-between;
         p {
           color: $darkDefault;
-          font-size: 18px;
+          font-size: 16px;
           font-weight: 500;
         }
         i {
@@ -103,7 +103,7 @@
         justify-content: space-between;
         p {
           color: $darkDefault;
-          font-size: 18px;
+          font-size: 16px;
           font-weight: 500;
         }
         i {
