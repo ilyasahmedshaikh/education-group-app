@@ -1,0 +1,131 @@
+{
+  "configVersion": 1,
+  "timestamp": 1626356835689,
+  "index": "https://ilyasahmedshaikh.github.io/education-group-app/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "https://ilyasahmedshaikh.github.io/education-group-app/1.afc7c01ebce5f930ee48.js",
+        "https://ilyasahmedshaikh.github.io/education-group-app/5.6b7fedfdda190ea689f9.js",
+        "https://ilyasahmedshaikh.github.io/education-group-app/6.dc7743f448874224feb4.js",
+        "https://ilyasahmedshaikh.github.io/education-group-app/7.8f5fed490730022ac0ab.js",
+        "https://ilyasahmedshaikh.github.io/education-group-app/8.2505e7bd2159f21c68be.js",
+        "https://ilyasahmedshaikh.github.io/education-group-app/9.6228d1ccf36b57f99da2.js",
+        "https://ilyasahmedshaikh.github.io/education-group-app/favicon.ico",
+        "https://ilyasahmedshaikh.github.io/education-group-app/index.html",
+        "https://ilyasahmedshaikh.github.io/education-group-app/main.1d3b0f1021d7b256b35c.js",
+        "https://ilyasahmedshaikh.github.io/education-group-app/manifest.webmanifest",
+        "https://ilyasahmedshaikh.github.io/education-group-app/polyfills.7a965888daba3fbc4385.js",
+        "https://ilyasahmedshaikh.github.io/education-group-app/runtime.5ec3687908278c3fce80.js",
+        "https://ilyasahmedshaikh.github.io/education-group-app/styles.bda19afd0390d10d31d5.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "https://ilyasahmedshaikh.github.io/education-group-app/assets/icons/icon-128x128.png",
+        "https://ilyasahmedshaikh.github.io/education-group-app/assets/icons/icon-144x144.png",
+        "https://ilyasahmedshaikh.github.io/education-group-app/assets/icons/icon-152x152.png",
+        "https://ilyasahmedshaikh.github.io/education-group-app/assets/icons/icon-192x192.png",
+        "https://ilyasahmedshaikh.github.io/education-group-app/assets/icons/icon-384x384.png",
+        "https://ilyasahmedshaikh.github.io/education-group-app/assets/icons/icon-512x512.png",
+        "https://ilyasahmedshaikh.github.io/education-group-app/assets/icons/icon-72x72.png",
+        "https://ilyasahmedshaikh.github.io/education-group-app/assets/icons/icon-96x96.png",
+        "https://ilyasahmedshaikh.github.io/education-group-app/assets/img/content-loading.gif",
+        "https://ilyasahmedshaikh.github.io/education-group-app/assets/img/girl.jpg",
+        "https://ilyasahmedshaikh.github.io/education-group-app/assets/img/girl2.jpg",
+        "https://ilyasahmedshaikh.github.io/education-group-app/assets/img/girl3.jpg",
+        "https://ilyasahmedshaikh.github.io/education-group-app/assets/img/img-upload-icon.png",
+        "https://ilyasahmedshaikh.github.io/education-group-app/assets/img/loading.gif",
+        "https://ilyasahmedshaikh.github.io/education-group-app/assets/img/man.jpg",
+        "https://ilyasahmedshaikh.github.io/education-group-app/assets/img/man2.jpg",
+        "https://ilyasahmedshaikh.github.io/education-group-app/assets/img/man3.jpg",
+        "https://ilyasahmedshaikh.github.io/education-group-app/assets/img/no-data.png",
+        "https://ilyasahmedshaikh.github.io/education-group-app/assets/img/placeholder-img.jpg",
+        "https://ilyasahmedshaikh.github.io/education-group-app/assets/img/users.png",
+        "https://ilyasahmedshaikh.github.io/education-group-app/assets/js/bootstrap.min.js",
+        "https://ilyasahmedshaikh.github.io/education-group-app/assets/scss/base.scss",
+        "https://ilyasahmedshaikh.github.io/education-group-app/assets/scss/bootstrap.min.css",
+        "https://ilyasahmedshaikh.github.io/education-group-app/assets/scss/buttons.scss",
+        "https://ilyasahmedshaikh.github.io/education-group-app/assets/scss/colours.scss",
+        "https://ilyasahmedshaikh.github.io/education-group-app/assets/scss/mixins.scss",
+        "https://ilyasahmedshaikh.github.io/education-group-app/assets/scss/variables.scss"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "https://ilyasahmedshaikh.github.io/education-group-app/1.afc7c01ebce5f930ee48.js": "8bf5db8039da5cb768472bf8b3580d3d122b72f4",
+    "https://ilyasahmedshaikh.github.io/education-group-app/5.6b7fedfdda190ea689f9.js": "d505c6b4f109b47b381289d11f0e0fda70590596",
+    "https://ilyasahmedshaikh.github.io/education-group-app/6.dc7743f448874224feb4.js": "a92328af7b4b3e327ee7034a772bb4538f8090bc",
+    "https://ilyasahmedshaikh.github.io/education-group-app/7.8f5fed490730022ac0ab.js": "38ddac920756a5d1e02b38430cba6c693fca78f6",
+    "https://ilyasahmedshaikh.github.io/education-group-app/8.2505e7bd2159f21c68be.js": "907bf7e3c10c9f2c0de0e2e95eac76890c950a08",
+    "https://ilyasahmedshaikh.github.io/education-group-app/9.6228d1ccf36b57f99da2.js": "6afe8a93e651894f609daf6d845c8cde7243edbd",
+    "https://ilyasahmedshaikh.github.io/education-group-app/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "https://ilyasahmedshaikh.github.io/education-group-app/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "https://ilyasahmedshaikh.github.io/education-group-app/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "https://ilyasahmedshaikh.github.io/education-group-app/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "https://ilyasahmedshaikh.github.io/education-group-app/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "https://ilyasahmedshaikh.github.io/education-group-app/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "https://ilyasahmedshaikh.github.io/education-group-app/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "https://ilyasahmedshaikh.github.io/education-group-app/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "https://ilyasahmedshaikh.github.io/education-group-app/assets/img/content-loading.gif": "0d9e6940e726cd116a45e005a73792917c5f9520",
+    "https://ilyasahmedshaikh.github.io/education-group-app/assets/img/girl.jpg": "058b38f1b921ccaaba26660303f0d5d4cb42aed2",
+    "https://ilyasahmedshaikh.github.io/education-group-app/assets/img/girl2.jpg": "0e06d0e086a5e4b60cf63903e2f3e3c727cce606",
+    "https://ilyasahmedshaikh.github.io/education-group-app/assets/img/girl3.jpg": "72620decac59d24d98064e76425924f60274a4ff",
+    "https://ilyasahmedshaikh.github.io/education-group-app/assets/img/img-upload-icon.png": "f147f8f223a81c502f930d9548a8cfc643148b1b",
+    "https://ilyasahmedshaikh.github.io/education-group-app/assets/img/loading.gif": "cfe67b2c4704546a194343ad1f9207ba50abd841",
+    "https://ilyasahmedshaikh.github.io/education-group-app/assets/img/man.jpg": "857650dc7768c8613249919ab34689845850a960",
+    "https://ilyasahmedshaikh.github.io/education-group-app/assets/img/man2.jpg": "9092d78386d6474112cfaebb1c1b6fbd3b5144d2",
+    "https://ilyasahmedshaikh.github.io/education-group-app/assets/img/man3.jpg": "132099ff00e68b2bc27cc9ab63a31c812278d6f3",
+    "https://ilyasahmedshaikh.github.io/education-group-app/assets/img/no-data.png": "b70aecc1bbe5c79fe5b29ad029f1b229c127e90f",
+    "https://ilyasahmedshaikh.github.io/education-group-app/assets/img/placeholder-img.jpg": "b32a1485bf7885154e525b8ec498a1b3369e6a1e",
+    "https://ilyasahmedshaikh.github.io/education-group-app/assets/img/users.png": "f5314c39f41b48ae37b1976334258793d7486b09",
+    "https://ilyasahmedshaikh.github.io/education-group-app/assets/js/bootstrap.min.js": "0c4e8445f6f0c9611dc1c13dc6f085eb4bcaca0b",
+    "https://ilyasahmedshaikh.github.io/education-group-app/assets/scss/base.scss": "975e892df607067c1755e0ab2b7f2aa62abe7fbb",
+    "https://ilyasahmedshaikh.github.io/education-group-app/assets/scss/bootstrap.min.css": "8ed2d6350d23f857d92805737d0f97c675de666b",
+    "https://ilyasahmedshaikh.github.io/education-group-app/assets/scss/buttons.scss": "dcab4731ff8a14cf10d7159d5f7a507362e9e838",
+    "https://ilyasahmedshaikh.github.io/education-group-app/assets/scss/colours.scss": "0e00b56b5518cc93dde97a7ea12cb58425a96ad4",
+    "https://ilyasahmedshaikh.github.io/education-group-app/assets/scss/mixins.scss": "8dbbcf2f09ded3c0643dbc8e4002c2daa2d13db8",
+    "https://ilyasahmedshaikh.github.io/education-group-app/assets/scss/variables.scss": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "https://ilyasahmedshaikh.github.io/education-group-app/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "https://ilyasahmedshaikh.github.io/education-group-app/index.html": "39c3843b49838b4c01f49a5d9ef555b76ea0a954",
+    "https://ilyasahmedshaikh.github.io/education-group-app/main.1d3b0f1021d7b256b35c.js": "3de3795fde36d51ae4aedb9474e6d00dbfb17df7",
+    "https://ilyasahmedshaikh.github.io/education-group-app/manifest.webmanifest": "62ed7ec67491d832f8b63a2ed9a205fe1440f3ba",
+    "https://ilyasahmedshaikh.github.io/education-group-app/polyfills.7a965888daba3fbc4385.js": "b6380ed034569010e4ec859b66fbc7c7132365a3",
+    "https://ilyasahmedshaikh.github.io/education-group-app/runtime.5ec3687908278c3fce80.js": "2078af8bb7460bf4fa7f18637dfc7954e0230ad7",
+    "https://ilyasahmedshaikh.github.io/education-group-app/styles.bda19afd0390d10d31d5.css": "2b211e2a827eadccf24bb72e7248bd845950e6ce"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
