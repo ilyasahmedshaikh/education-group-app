@@ -24,6 +24,7 @@ export class HeaderComponent implements OnInit {
   pages: any = [
     { name: "Homepage", url: "/homepage", icon: "" },
     { name: "Groups", url: "/groups", icon: "" },
+    { name: "Activity", url: "/activities", icon: "" },
     { name: "Notifications", url: "/notifications", icon: "" },
     { name: "Settings", url: "/settings", icon: "" },
     { name: "Login", url: "/auth/login", icon: "" },

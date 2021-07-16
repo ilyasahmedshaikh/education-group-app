@@ -1,0 +1,36 @@
+@import '/src/styles.scss';
+
+.group-listing-screen {
+  padding: 25px 0;
+  .card {
+    margin-top: 3%;
+    .card-body {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .text {
+        p {
+          &.title {
+            color: $darkDefault;
+            font-size: 18px;
+            font-weight: 600;
+            padding-bottom: 3px;
+          }
+        }
+        p {
+          &.sub-title {
+            color: $lightDefault;
+            font-size: 15px;
+            font-weight: 500;
+          }
+        }
+      }
+      .icon {
+        i {
+          color: $darkDefault;
+          font-size: 15px;
+        }
+      }
+    }
+  }
+}
