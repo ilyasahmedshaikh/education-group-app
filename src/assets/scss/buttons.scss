@@ -1,15 +1,19 @@
+@mixin rounded-btn-mixin($width: 100%) {
+  border: 1px solid $darkDefault;
+  padding: 8px;
+  background: $darkDefault;
+  width: $width;
+  height: auto;
+  cursor: pointer;
+  color: $white;
+  border-radius: 50px;
+  display: block;
+  margin: auto;
+  text-align: center;
+}
+
 .rounded-btn {
-    border: 1px solid $darkDefault;
-    padding: 8px;
-    background: $darkDefault;
-    width: 170px;
-    height: auto;
-    cursor: pointer;
-    color: $white;
-    border-radius: 50px;
-    display: block;
-    margin: auto;
-    text-align: center;
+  @include rounded-btn-mixin(100%);
 }
 
 .outline-btn {
