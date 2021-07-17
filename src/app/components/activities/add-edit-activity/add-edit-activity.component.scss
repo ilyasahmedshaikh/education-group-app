@@ -1,0 +1,23 @@
+@import '/src/styles.scss';
+
+.add-edit-activity-screen {
+	padding: 25px 0;
+  .addedit-activity-inputs {
+    .img-uploader {
+      padding-bottom: 25px;
+    }
+    .add-edit-btn {
+      padding-top: 10px;
+    }
+  }
+}
+
+@media screen and (max-width: 600px)
+{
+  .add-edit-activity-screen{
+    .rounded-btn{
+      width: 100%;
+      height: auto;
+    }
+  }
+}
