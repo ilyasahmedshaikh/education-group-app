@@ -8,10 +8,11 @@ import { ActivitiesComponent } from './activities.component';
 import { AddEditActivityComponent } from './add-edit-activity/add-edit-activity.component';
 import { ActivityListingComponent } from './activity-listing/activity-listing.component';
 import { ActivityDetailsComponent } from './activity-details/activity-details.component';
+import { EventDetailsComponent } from './event-details/event-details.component';
 
 
 @NgModule({
-  declarations: [ActivitiesComponent, AddEditActivityComponent, ActivityListingComponent, ActivityDetailsComponent],
+  declarations: [ActivitiesComponent, AddEditActivityComponent, ActivityListingComponent, ActivityDetailsComponent, EventDetailsComponent],
   imports: [
     CommonModule,
     ActivitiesRoutingModule,

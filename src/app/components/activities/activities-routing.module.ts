@@ -5,6 +5,7 @@ import { ActivitiesComponent } from './activities.component';
 import { ActivityListingComponent } from './activity-listing/activity-listing.component';
 import { AddEditActivityComponent } from './add-edit-activity/add-edit-activity.component';
 import { ActivityDetailsComponent } from './activity-details/activity-details.component';
+import { EventDetailsComponent } from './event-details/event-details.component';
 
 const routes: Routes = [
   {
@@ -26,6 +27,10 @@ const routes: Routes = [
       {
         path: 'activity-details',
         component: ActivityDetailsComponent
+      },
+      {
+        path: 'event-details',
+        component: EventDetailsComponent
       },
     ]
   },
