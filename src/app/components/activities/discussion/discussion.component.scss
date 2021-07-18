@@ -36,7 +36,7 @@
     box-shadow: 0px 0px 10px #00000014;
     .icon-send{
       position: relative;
-      i{
+      i {
         position: absolute;
         top: 2px;
         left: -5px;
@@ -44,7 +44,7 @@
         padding: 11px 12px 11px 9px;
         color: $white;
         border-radius: 40px;
-        background-color: #1edc9c;
+        background: $default;
         border-radius: 40px;
       }
     }

@@ -21,6 +21,9 @@ export class HeaderComponent implements OnInit {
 
   userData: any = {};
 
+  pageTitle: any = "";
+  currentURL: string = "";
+
   pages: any = [
     { name: "Homepage", url: "/homepage", icon: "" },
     { name: "Groups", url: "/groups", icon: "" },
@@ -36,7 +39,9 @@ export class HeaderComponent implements OnInit {
     private location: Location,
     private presentationalS: PresentationalService,
     // private user: CheckLoginService
-  ) { }
+  ) {
+    this.getPageTitle();
+  }
 
   ngOnInit(): void {
     this.backNavigateService.back.subscribe(res => {
@@ -48,6 +53,20 @@ export class HeaderComponent implements OnInit {
     })
 
     // this.userData = this.user.getData();
+  }
+
+  getPageTitle() {
+    this.router.events.subscribe((val) => {
+      if(this.location.path() != ''){
+        this.currentURL = this.location.path();
+
+        let spliter = this.currentURL.split('/');
+        this.pageTitle = spliter[spliter.length-1];
+        this.pageTitle = this.pageTitle.replaceAll("-", " ");
+      } else {
+        this.pageTitle = 'Homepage';
+      }
+    });
   }
 
   toggleMenu() {
