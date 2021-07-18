@@ -24,7 +24,7 @@
 
 <div class="upcoming-events">
     <p class="heading">Your Events</p>
-    <div class="event" *ngFor="let event of events">
+    <div class="event" *ngFor="let event of events" routerLink="/activities/event-details">
         <img src="{{event.image}}" [alt]="event.name" />
         <div class="fade-away"></div>
         <div class="content">
