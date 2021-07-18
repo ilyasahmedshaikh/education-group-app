@@ -6,6 +6,7 @@ import { ActivityListingComponent } from './activity-listing/activity-listing.co
 import { AddEditActivityComponent } from './add-edit-activity/add-edit-activity.component';
 import { ActivityDetailsComponent } from './activity-details/activity-details.component';
 import { EventDetailsComponent } from './event-details/event-details.component';
+import { DiscussionComponent } from './discussion/discussion.component';
 
 const routes: Routes = [
   {
@@ -31,6 +32,10 @@ const routes: Routes = [
       {
         path: 'event-details',
         component: EventDetailsComponent
+      },
+      {
+        path: 'discussion',
+        component: DiscussionComponent
       },
     ]
   },

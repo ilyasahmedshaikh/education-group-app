@@ -105,10 +105,14 @@ input[type="color"]:focus,
   z-index: 1000;
   width: 50px;
   height: 50px;
-  background: red;
+  background: $default;
   border-radius: 50%;
   box-shadow: 1px 1px 10px #eeeeee;
   a {
-    font-size: 20px;
+    font-size: 25px;
+    color: white;
+    i {
+      padding: 10px;
+    }
   }
 }

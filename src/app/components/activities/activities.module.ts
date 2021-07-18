@@ -9,10 +9,11 @@ import { AddEditActivityComponent } from './add-edit-activity/add-edit-activity.
 import { ActivityListingComponent } from './activity-listing/activity-listing.component';
 import { ActivityDetailsComponent } from './activity-details/activity-details.component';
 import { EventDetailsComponent } from './event-details/event-details.component';
+import { DiscussionComponent } from './discussion/discussion.component';
 
 
 @NgModule({
-  declarations: [ActivitiesComponent, AddEditActivityComponent, ActivityListingComponent, ActivityDetailsComponent, EventDetailsComponent],
+  declarations: [ActivitiesComponent, AddEditActivityComponent, ActivityListingComponent, ActivityDetailsComponent, EventDetailsComponent, DiscussionComponent],
   imports: [
     CommonModule,
     ActivitiesRoutingModule,
