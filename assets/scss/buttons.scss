@@ -1,15 +1,18 @@
+@mixin rounded-btn-mixin($width: 100%) {
+  padding: 8px;
+  background: $default;
+  width: $width;
+  height: auto;
+  cursor: pointer;
+  color: $white;
+  border-radius: 50px;
+  display: block;
+  margin: auto;
+  text-align: center;
+}
+
 .rounded-btn {
-    border: 1px solid $darkDefault;
-    padding: 8px;
-    background: $darkDefault;
-    width: 170px;
-    height: auto;
-    cursor: pointer;
-    color: $white;
-    border-radius: 50px;
-    display: block;
-    margin: auto;
-    text-align: center;
+  @include rounded-btn-mixin(100%);
 }
 
 .outline-btn {
@@ -28,21 +31,10 @@
 
 .chip-icon-btn {
   color: $white;
-  font-size: 16px;
-  border: 1px solid $blue;
+  font-size: 12px;
   background: $default;
   border-radius: 20px;
   padding: 5px 15px;
   cursor: pointer;
-  width: 100px;
-  float: right;
-  display: flex;
-  justify-content: space-between;
-  i {
-    font-size: 15px;
-    padding-right: 8px;
-    color: $white;
-    position: relative;
-    top: 4px;
-  }
+  width: auto;
 }
