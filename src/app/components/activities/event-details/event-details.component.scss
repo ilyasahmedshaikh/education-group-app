@@ -1,0 +1,53 @@
+@import '/src/styles.scss';
+
+.event-details-screen {
+  .group-bg-cover {
+    width: 100%;
+    height: 235px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .detail-card {
+    padding: 10px 0 20px 0;
+    p {
+      &.title {
+        font-size: 18px;
+        font-weight: 600;
+        color: $darkDefault;
+        padding-bottom: 12px;
+      }
+      &.content {
+        font-size: 16px;
+        color: $lightDefault;
+        padding-top: 14px;
+      }
+      &.location {
+        color: $lightDefault;
+        font-size: 15px;
+        font-weight: 500;
+        padding-top: 8px;
+        i {
+          color: $lightDefault;
+          font-size: 17px;
+          padding-right: 8px;
+        }
+      }
+    }
+    .date-time {
+      padding-top: 15px;
+      display: flex;
+      justify-content: space-between;
+      p {
+        color: $lightDefault;
+        font-size: 15px;
+        font-weight: 500;
+        i {
+          color: $lightDefault;
+          font-size: 16px;
+          padding-right: 8px;
+        }
+      }
+    }
+  }
+}

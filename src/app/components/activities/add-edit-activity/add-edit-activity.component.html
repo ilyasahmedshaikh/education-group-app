@@ -19,11 +19,17 @@
             <div class="form-group">
               <label>Activity Type</label>
               <select class="form-control" formControlName="activityType">
-                <option selected>Choose Any Type</option>
-                <option>Event</option>
-                <option>Announcement</option>
+                <option *ngFor="let item of activityTypes" [value]="item.id">{{item.name}}</option>
               </select>
             </div>
+            <div class="form-group" *ngIf="showEventFields">
+              <label>Date & Time</label>
+              <input type="datetime-local" class="form-control" placeholder="Date Time" formControlName="dateTime">
+          </div>
+          <div class="form-group" *ngIf="showEventFields">
+            <label>Event Location</label>
+            <input type="text" class="form-control" placeholder="Event Location" formControlName="location">
+        </div>
 
             <div class="add-edit-btn">
               <a class="rounded-btn">Add Activity</a>

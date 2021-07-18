@@ -1,6 +1,13 @@
 @import '/src/styles.scss';
 
 .activity-details-screen {
+  .group-bg-cover {
+    width: 100%;
+    height: 235px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
   .detail-card {
     padding: 20px 0;
     p {
@@ -13,6 +20,7 @@
         font-size: 13px;
         font-weight: 500;
         padding-top: 3px;
+        padding-bottom: 10px;
         color: $darkDefault;
       }
       &.content {

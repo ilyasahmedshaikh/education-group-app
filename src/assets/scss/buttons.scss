@@ -1,7 +1,6 @@
 @mixin rounded-btn-mixin($width: 100%) {
-  border: 1px solid $darkDefault;
   padding: 8px;
-  background: $darkDefault;
+  background: $default;
   width: $width;
   height: auto;
   cursor: pointer;
@@ -32,21 +31,10 @@
 
 .chip-icon-btn {
   color: $white;
-  font-size: 16px;
-  border: 1px solid $blue;
+  font-size: 12px;
   background: $default;
   border-radius: 20px;
   padding: 5px 15px;
   cursor: pointer;
-  width: 100px;
-  float: right;
-  display: flex;
-  justify-content: space-between;
-  i {
-    font-size: 15px;
-    padding-right: 8px;
-    color: $white;
-    position: relative;
-    top: 4px;
-  }
+  width: auto;
 }

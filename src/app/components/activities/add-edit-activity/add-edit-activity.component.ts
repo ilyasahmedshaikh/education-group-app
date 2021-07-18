@@ -9,6 +9,12 @@ import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 export class AddEditActivityComponent implements OnInit {
 
   programForm: any = FormGroup;
+  showEventFields: boolean = false;
+  activityTypes: any = [
+    { id: 0, name: "Choose Any Type" },
+    { id: 1, name: 'Event' },
+    { id: 2, name: 'Announcement' }
+  ]
 
   constructor(
     private fb: FormBuilder
@@ -16,13 +22,20 @@ export class AddEditActivityComponent implements OnInit {
 
   ngOnInit(): void {
     this.formInit();
+
+    this.programForm.valueChanges.subscribe(value => {
+      if (value.activityType == 1) this.showEventFields = true
+      else this.showEventFields = false;
+    })
   }
 
   formInit() {
     this.programForm = this.fb.group({
       title: ['', Validators.required],
       description: ['', Validators.required],
-      activityType: ['', Validators.required]
+      activityType: [0, Validators.required],
+      dateTime: [''],
+      location: [''],
     });
   }
 
