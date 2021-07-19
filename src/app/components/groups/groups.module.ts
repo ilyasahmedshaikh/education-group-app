@@ -8,10 +8,12 @@ import { GroupsComponent } from './groups.component';
 import { AddEditGroupComponent } from './add-edit-group/add-edit-group.component';
 import { GroupListingComponent } from './group-listing/group-listing.component';
 import { GroupDetailsComponent } from './group-details/group-details.component';
+import { GroupDecsriptionComponent } from './group-decsription/group-decsription.component';
+import { GroupEventsComponent } from './group-events/group-events.component';
 
 
 @NgModule({
-  declarations: [GroupsComponent, AddEditGroupComponent, GroupListingComponent, GroupDetailsComponent],
+  declarations: [GroupsComponent, AddEditGroupComponent, GroupListingComponent, GroupDetailsComponent, GroupDecsriptionComponent, GroupEventsComponent],
   imports: [
     CommonModule,
     GroupsRoutingModule,

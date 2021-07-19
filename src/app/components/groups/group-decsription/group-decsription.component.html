@@ -1,0 +1,34 @@
+<div class="container">
+    <div class="group-description">
+        <div class="image">
+            <img src="/assets/img/group-logo.jpg" alt="group" />
+        </div>
+        <h4 class="pb-2">UWI Students Onion</h4>
+        <p>THE GUILD OF STUDENTS IS THE OFFICIAL BODY FOR STUDENT REPRESENTATION ON THE MONA CAMPUS OF THE UNIVERSITY OF WEST.</p>
+    
+        <div class="admins">
+            <h5 class="pb-2"><b>List of Admins</b></h5>
+
+            <div class="l-item" *ngFor="let item of List">
+                <img src="{{item.image}}" alt="{{item.name}}" />
+                <p>{{item.name}}</p>
+            </div>
+        </div>
+
+        <div class="faqs">
+            <h5 class="pb-2"><b>FAQs</b></h5>
+            <div class="faq" *ngFor="let item of faqs">
+                <p><b>{{item.question}}</b></p>
+                <p>{{item.answer}}</p>
+            </div>
+        </div>
+
+        <div class="links">
+            <h5 class="pb-2"><b>Links</b></h5>
+
+            <div class="link" *ngFor="let item of links">
+                <a href="https://www.onlineeducation.com/guide/online-learning-faqs">How Online Courses Work</a>
+            </div>
+        </div>
+    </div>
+</div>

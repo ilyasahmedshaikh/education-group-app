@@ -5,6 +5,8 @@ import { GroupsComponent } from './groups.component';
 import { GroupListingComponent } from './group-listing/group-listing.component';
 import { AddEditGroupComponent } from './add-edit-group/add-edit-group.component';
 import { GroupDetailsComponent } from './group-details/group-details.component';
+import { GroupDecsriptionComponent } from './group-decsription/group-decsription.component';
+import { GroupEventsComponent } from './group-events/group-events.component';
 
 const routes: Routes = [
   {
@@ -26,6 +28,14 @@ const routes: Routes = [
       {
         path: 'group-details',
         component: GroupDetailsComponent
+      },
+      {
+        path: 'group-description',
+        component: GroupDecsriptionComponent
+      },
+      {
+        path: 'group-events',
+        component: GroupEventsComponent
       },
     ]
   },
