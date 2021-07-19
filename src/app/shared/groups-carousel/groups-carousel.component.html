@@ -1,5 +1,5 @@
 <div class="groups">
-    <p class="heading">Your Groups</p>
+    <p class="heading">{{title}}</p>
     <div class="scrollable-section">
         <div class="item" *ngFor="let group of groups" routerLink="/groups/group-details">
             <img src="{{group.image}}" [alt]="group.name" />
